@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .photo-frame {
+            overflow: hidden;
+            position: relative;
+            width: 200px;
+            height: 215px;
+            border: 2px solid goldenrod;
+            margin: 15px;
+        }
+        
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        .photo-detail {
+            display: none;
+            position: absolute;
+            top: 0;
+            padding: 10px;
+            width: 90%;
+            height: 90%;
+        }
+        
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(226, 168, 21, 0.507);
+        }
+        
+        .photo-detail h3 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        
+        .photo-detail p {
+            color: white;
+        }
+        
+        .photo-frame:hover .photo {
+            transform: scale(1.3);
+            transition: transform 1.5s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My favourite animal photo album</h1>
+    <section>
+
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="assets/tiger.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eveniet porro aut ducimus nemo sed itaque, optio voluptatibus ipsa ut modi debitis reprehenderit commodi a rem, eius totam. Error, sunt?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
